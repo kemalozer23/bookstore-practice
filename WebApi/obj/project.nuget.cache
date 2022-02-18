@@ -1,15 +1,30 @@
 {
   "version": 2,
-  "dgSpecHash": "7v2AiY2AhEq9Gm7aMX4+hqB3eyPaibxJtSU9NNvyKRkKlXAdM6NoiXKxXJuCL867z+5VQGW8x3N74sZLOUpmAw==",
+  "dgSpecHash": "yXCHty9GfB/iz5Hm1bAJ7m/ysPSGCv9aZS+AnvqBLdaP+wiG096aLKNTgNlilUUaLms2FIflej5iQs/1IX9BpQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Casper\\Desktop\\Pratikler\\BookStore\\WebApi\\WebApi.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Casper\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.0-preview.1.22076.6\\microsoft.entityframeworkcore.7.0.0-preview.1.22076.6.nupkg.sha512",
+    "C:\\Users\\Casper\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.0-preview.1.22076.6\\microsoft.entityframeworkcore.abstractions.7.0.0-preview.1.22076.6.nupkg.sha512",
+    "C:\\Users\\Casper\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\7.0.0-preview.1.22076.6\\microsoft.entityframeworkcore.analyzers.7.0.0-preview.1.22076.6.nupkg.sha512",
+    "C:\\Users\\Casper\\.nuget\\packages\\microsoft.entityframeworkcore.inmemory\\7.0.0-preview.1.22076.6\\microsoft.entityframeworkcore.inmemory.7.0.0-preview.1.22076.6.nupkg.sha512",
     "C:\\Users\\Casper\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\Casper\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\7.0.0-preview.1.22076.8\\microsoft.extensions.caching.abstractions.7.0.0-preview.1.22076.8.nupkg.sha512",
+    "C:\\Users\\Casper\\.nuget\\packages\\microsoft.extensions.caching.memory\\7.0.0-preview.1.22076.8\\microsoft.extensions.caching.memory.7.0.0-preview.1.22076.8.nupkg.sha512",
+    "C:\\Users\\Casper\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0-preview.1.22076.8\\microsoft.extensions.dependencyinjection.7.0.0-preview.1.22076.8.nupkg.sha512",
+    "C:\\Users\\Casper\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0-preview.1.22076.8\\microsoft.extensions.dependencyinjection.abstractions.7.0.0-preview.1.22076.8.nupkg.sha512",
+    "C:\\Users\\Casper\\.nuget\\packages\\microsoft.extensions.logging\\7.0.0-preview.1.22076.8\\microsoft.extensions.logging.7.0.0-preview.1.22076.8.nupkg.sha512",
+    "C:\\Users\\Casper\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.0-preview.1.22076.8\\microsoft.extensions.logging.abstractions.7.0.0-preview.1.22076.8.nupkg.sha512",
+    "C:\\Users\\Casper\\.nuget\\packages\\microsoft.extensions.options\\7.0.0-preview.1.22076.8\\microsoft.extensions.options.7.0.0-preview.1.22076.8.nupkg.sha512",
+    "C:\\Users\\Casper\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0-preview.1.22076.8\\microsoft.extensions.primitives.7.0.0-preview.1.22076.8.nupkg.sha512",
     "C:\\Users\\Casper\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\Casper\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
     "C:\\Users\\Casper\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
     "C:\\Users\\Casper\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
-    "C:\\Users\\Casper\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+    "C:\\Users\\Casper\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512",
+    "C:\\Users\\Casper\\.nuget\\packages\\system.collections.immutable\\7.0.0-preview.1.22076.8\\system.collections.immutable.7.0.0-preview.1.22076.8.nupkg.sha512",
+    "C:\\Users\\Casper\\.nuget\\packages\\system.diagnostics.diagnosticsource\\7.0.0-preview.1.22076.8\\system.diagnostics.diagnosticsource.7.0.0-preview.1.22076.8.nupkg.sha512",
+    "C:\\Users\\Casper\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\7.0.0-preview.1.22076.8\\system.runtime.compilerservices.unsafe.7.0.0-preview.1.22076.8.nupkg.sha512"
   ],
   "logs": []
 }
