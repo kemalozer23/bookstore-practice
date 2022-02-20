@@ -36,7 +36,17 @@ namespace WebApi.AddControllers
         {
             GetBookByIdQuery query = new GetBookByIdQuery(_context);
             
-            var result = query.Handle(id);
+            BookViewModel result;
+
+            try
+            {
+                query.BookId = id;
+                result = query.Handle();
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
             
             return Ok(result);
         }
@@ -60,13 +70,14 @@ namespace WebApi.AddControllers
             return Ok();
         }
 
-        [HttpPut]
-        public IActionResult UpdateBook([FromBody] UpdateBookModel updatedBook)
+        [HttpPut("id")]
+        public IActionResult UpdateBook(int id, [FromBody] UpdateBookModel updatedBook)
         {
             UpdateBookCommand command = new UpdateBookCommand(_context);
             
             try
             {
+                command.BookId = id;
                 command.Model = updatedBook;
                 command.Handle();
             }
@@ -85,7 +96,8 @@ namespace WebApi.AddControllers
             
             try
             {
-                command.Handle(id);
+                command.BookId = id;
+                command.Handle();
             }
             catch (Exception ex)
             {
