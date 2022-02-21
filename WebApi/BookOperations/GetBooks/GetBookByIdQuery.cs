@@ -23,9 +23,9 @@ namespace WebApi.BookOperations.GetBooks
             if (book is null)
                 throw new InvalidOperationException("Kitap bulunamadı");
 
-            BookViewModel Model = _mapper.Map<BookViewModel>(book);
+            BookViewModel vm = _mapper.Map<BookViewModel>(book);
 
-            return Model;
+            return vm;
         }
 
 
